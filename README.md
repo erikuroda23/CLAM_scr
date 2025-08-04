@@ -33,7 +33,7 @@
 ```
 ## train
 ```
-python clam_train.py
+python clam_train_alg1.py
 ```
 
 ## TODOs
