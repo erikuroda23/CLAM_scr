@@ -12,10 +12,30 @@
     - 200px
     - fps: 20
     - 3min
+    - train: 30 movies
+    - test: 5 movies
 - Action: 6-dimensional actuator .npz
 
+```
 ─ train
   ├── cheetah_run
-      ├── aaa
-      ├── bbb
+      ├── train_0_video.mp4
+      ├── train_0_actions.npz
+      └──...
   └── ...
+- test
+  ├── cheetah_run
+      ├── test_0_video.mp4
+      ├── test_0_actions.npz
+      └──...
+  └── ...
+
+```
+## train
+```
+python clam_train.py
+```
+
+### TODOs
+- validation
+- xxx
