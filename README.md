@@ -12,6 +12,10 @@
     - 200px
     - fps: 20
     - 3min
-    - train: 30
-    - test: 5
 - Action: 6-dimensional actuator .npz
+
+─ train
+  ├── cheetah_run
+      ├── aaa
+      ├── bbb
+  └── ...
